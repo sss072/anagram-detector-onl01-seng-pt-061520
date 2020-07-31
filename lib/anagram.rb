@@ -6,4 +6,5 @@ class Anagram
   end
   def match(array)
     matches = []
-    
+    array.sort.each do |element|
+      
