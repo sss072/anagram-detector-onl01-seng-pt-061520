@@ -5,5 +5,6 @@ class Anagram
     @word = word 
   end
   def match(array)
-    array.select do 
+    array.select do |element|
+      element.split()
       
